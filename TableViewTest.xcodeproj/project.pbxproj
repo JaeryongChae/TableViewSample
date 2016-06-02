@@ -12,6 +12,10 @@
 		C24717CF1CFEB56300EBD303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24717CD1CFEB56300EBD303 /* Main.storyboard */; };
 		C24717D11CFEB56300EBD303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24717D01CFEB56300EBD303 /* Assets.xcassets */; };
 		C24717D41CFEB56300EBD303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24717D21CFEB56300EBD303 /* LaunchScreen.storyboard */; };
+		C24717DC1CFEC02E00EBD303 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717DB1CFEC02E00EBD303 /* MyTableViewController.swift */; };
+		C24717E01CFECB5800EBD303 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C24717DD1CFECB5800EBD303 /* 1.jpeg */; };
+		C24717E11CFECB5800EBD303 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C24717DE1CFECB5800EBD303 /* 2.jpeg */; };
+		C24717E21CFECB5800EBD303 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C24717DF1CFECB5800EBD303 /* 3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C24717D01CFEB56300EBD303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24717D31CFEB56300EBD303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C24717D51CFEB56300EBD303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24717DB1CFEC02E00EBD303 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		C24717DD1CFECB5800EBD303 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		C24717DE1CFECB5800EBD303 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		C24717DF1CFECB5800EBD303 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				C24717C91CFEB56300EBD303 /* AppDelegate.swift */,
 				C24717CB1CFEB56300EBD303 /* ViewController.swift */,
+				C24717DB1CFEC02E00EBD303 /* MyTableViewController.swift */,
 				C24717CD1CFEB56300EBD303 /* Main.storyboard */,
 				C24717D01CFEB56300EBD303 /* Assets.xcassets */,
 				C24717D21CFEB56300EBD303 /* LaunchScreen.storyboard */,
 				C24717D51CFEB56300EBD303 /* Info.plist */,
+				C24717E31CFECBBC00EBD303 /* Resource */,
 			);
 			path = TableViewTest;
+			sourceTree = "<group>";
+		};
+		C24717E31CFECBBC00EBD303 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C24717DD1CFECB5800EBD303 /* 1.jpeg */,
+				C24717DE1CFECB5800EBD303 /* 2.jpeg */,
+				C24717DF1CFECB5800EBD303 /* 3.jpeg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24717E11CFECB5800EBD303 /* 2.jpeg in Resources */,
 				C24717D41CFEB56300EBD303 /* LaunchScreen.storyboard in Resources */,
 				C24717D11CFEB56300EBD303 /* Assets.xcassets in Resources */,
+				C24717E21CFECB5800EBD303 /* 3.jpeg in Resources */,
 				C24717CF1CFEB56300EBD303 /* Main.storyboard in Resources */,
+				C24717E01CFECB5800EBD303 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24717CC1CFEB56300EBD303 /* ViewController.swift in Sources */,
+				C24717DC1CFEC02E00EBD303 /* MyTableViewController.swift in Sources */,
 				C24717CA1CFEB56300EBD303 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +310,7 @@
 				C24717DA1CFEB56300EBD303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
